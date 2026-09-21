@@ -24,7 +24,7 @@ let tokens: (client.TokenEndpointResponse & client.TokenEndpointResponseHelpers)
  * @returns The generated access token.
  * @example
  * const accessToken = await getAccessToken();
- * const response = fetch("https://api.viskan.com/warehouse-management/warehouse/warehouses", {
+ * const response = fetch("https://api.v2.viskan.com/warehouse-management/warehouse/warehouses", {
  *     headers: {
  *         Authorization: `Bearer ${accessToken}`,
  *         Accept: "application/json",

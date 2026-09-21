@@ -1,1 +1,1 @@
-export const endpoint = "https://api.viskan.com";
+export const endpoint = "https://api.v2.viskan.com";
